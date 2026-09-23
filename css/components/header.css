@@ -3,7 +3,7 @@
     top: 20px;
     left: 50%;
     transform: translate(-50%);
-    width: calc(100% - 40px);
+    width: 1260px;
     border-radius: 15px;
     z-index: 999;
     display: flex;
@@ -21,6 +21,15 @@
     display: flex;
     gap: 2.5rem;
     
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    flex: 1;
+    margin-left: 10rem;
 }
 
 .nav-center a, 
